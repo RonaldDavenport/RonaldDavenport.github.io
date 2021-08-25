@@ -5,7 +5,7 @@ const secondContainer = document.querySelector(".flex2");
 
 
 function addItems(){
- const taskItems = document.createElement("ol");
+ const taskItems = document.createElement("li");
 const task = input.value;
 taskItems.innerHTML = task;
 secondContainer.append(taskItems);
